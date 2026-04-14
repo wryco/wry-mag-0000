@@ -802,3 +802,31 @@ form#hue-rotate-form input {
     width: 7.5in;
     height: 0.25in;
 }
+
+div#dear-god-started-plot {
+    background-image: url(img/023-dear-god-started.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#dear-god-top-text {
+    position: relative;
+    top: 0.625in;
+    left: 0.125in;
+    width: 8.25in;
+    height: 2.25in;
+    line-height: 2.25in;
+    font-size: 160px;
+    text-align: center;
+    background-color: #666;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+div#dear-god-with-time-plot {
+    background-image: url(img/024-dear-god-with-time.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
