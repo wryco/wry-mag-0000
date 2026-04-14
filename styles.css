@@ -16,6 +16,12 @@ body {
     flex-wrap: wrap;
 }
 
+#opening-page-text a {
+    color: inherit;
+    background-color: rgba(255, 255, 255, 0.25);
+    padding: 5px;
+}
+
 .page {
     width: 8.5in;
     height: 11in;
@@ -78,9 +84,12 @@ body {
 }
 
 #opening-page-text {
-    display: inline-block;
     margin: 0.5in;
     font-size: 0.2in;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #gleeby-deeby-image {
@@ -603,4 +612,139 @@ div#owomba-feature-optics {
 #owomba-page-number {
     background-color: #eee;
     color: #000;
+}
+
+#junji-ito-page-1 {
+    background-image: url(img/012-junji-ito-page-1.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#junji-ito-page-2 {
+    background-image: url(img/012-junji-ito-page-2.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#fimbo-cat-plot {
+    background-image: url(img/013-fimbo-cat.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#fimbo-cat-digital {
+    background-image: url(img/013-fimbo-cat-digital.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(40% 12.5%, 87.5% 12.5%, 87.5% 87.5%, 40% 87.5%);
+}
+
+#fimbo-cat-photo {
+    background-image: url(img/013-fimbo-cat-photo.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(40% 20%, 75% 20%, 75% 70%, 40% 70%);
+}
+
+#the-drive-home-plot {
+    background-image: url(img/014-the-drive-home.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#the-drive-home-photo {
+    background-image: url(img/014-the-drive-home-photo.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(32% 70%, 38% 63%, 48% 60%, 55% 59%, 66% 58.5%, 70% 59%, 72% 62%, 72% 77%, 55% 75%);
+}
+
+#owoomba-plot {
+    background-image: url(img/015-owoomba.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#braillest-ad {
+    background-image: url(img/016-braillest-ad.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#distant-mountains-1-plot {
+    background-image: url(img/017-distant-mountains.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    transform: scaleX(-1);
+}
+
+#distant-mountains-1-digital {
+    background-image: url(img/017-distant-mountains-digital.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(0% 0, 33% 0, 33% 100%, 0% 100%);
+    transform: scaleX(-1);
+}
+
+#distant-mountains-2-plot {
+    background-image: url(img/018-distant-mountains.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#distant-mountains-2-digital {
+    background-image: url(img/017-distant-mountains-digital.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(0% 0, 33% 0, 33% 100%, 0% 100%);
+}
+
+#chatgpt-lines-1-plot {
+    background-image: url(img/019-chatgpt-lines.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    transform: scaleX(-1);
+    clip-path: polygon(0% 0%, 100% 100%, 0% 100%);
+}
+
+#chatgpt-lines-1-plot-inv {
+    background-image: url(img/019-chatgpt-lines.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    transform: scaleX(-1);
+    filter: invert();
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+}
+
+#chatgpt-lines-2-plot {
+    background-image: url(img/020-chatgpt-lines.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: brightness(150%);
+    clip-path: polygon(0% 0%, 0% 100%, 100% 100%);
+}
+
+#chatgpt-lines-2-plot-inv {
+    background-image: url(img/020-chatgpt-lines.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: brightness(200%) invert();
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
 }
