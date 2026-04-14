@@ -477,8 +477,7 @@ div#pony-hell-plot {
     background-image: url(img/009-pony-hell-plot.png);
     width: 8.5in;
     height: 11in;
-    background-size: 10in 13in;
-    background-position: 79% 40%;
+    background-size: 8.5in 11in;
     clip-path: polygon(0 0, 8.5in 0, 8.5in 5.5in, 4.25in 5.5in);
 }
 
@@ -789,4 +788,19 @@ div#owomba-feature-optics {
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
+}
+
+form#hue-rotate-form {
+    width: 7.5in;
+    height: 1.5in;
+    position: relative;
+    top: 8.625in;
+    left: 0.25in;
+    padding: 0.25in;
+    background-color: #eee;
+}
+
+form#hue-rotate-form input {
+    width: 7.5in;
+    height: 0.25in;
 }
