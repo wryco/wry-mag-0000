@@ -619,21 +619,21 @@ div#owomba-feature-optics {
 }
 
 #junji-ito-page-2 {
-    background-image: url(img/012-junji-ito-page-2.png);
+    background-image: url(img/013-junji-ito-page-2.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #fimbo-cat-plot {
-    background-image: url(img/013-fimbo-cat.png);
+    background-image: url(img/014-fimbo-cat.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #fimbo-cat-digital {
-    background-image: url(img/013-fimbo-cat-digital.png);
+    background-image: url(img/014-fimbo-cat-digital.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -641,7 +641,7 @@ div#owomba-feature-optics {
 }
 
 #fimbo-cat-photo {
-    background-image: url(img/013-fimbo-cat-photo.jpg);
+    background-image: url(img/014-fimbo-cat-photo.jpg);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -649,14 +649,14 @@ div#owomba-feature-optics {
 }
 
 #the-drive-home-plot {
-    background-image: url(img/014-the-drive-home.png);
+    background-image: url(img/015-the-drive-home.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #the-drive-home-photo {
-    background-image: url(img/014-the-drive-home-photo.jpg);
+    background-image: url(img/015-the-drive-home-photo.jpg);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -664,21 +664,21 @@ div#owomba-feature-optics {
 }
 
 #owoomba-plot {
-    background-image: url(img/015-owoomba.png);
+    background-image: url(img/016-owoomba.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #braillest-ad {
-    background-image: url(img/016-braillest-ad.png);
+    background-image: url(img/017-braillest-ad.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #distant-mountains-1-plot {
-    background-image: url(img/017-distant-mountains.png);
+    background-image: url(img/018-distant-mountains.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -686,7 +686,7 @@ div#owomba-feature-optics {
 }
 
 #distant-mountains-1-digital {
-    background-image: url(img/017-distant-mountains-digital.jpg);
+    background-image: url(img/018-distant-mountains-digital.jpg);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -694,23 +694,23 @@ div#owomba-feature-optics {
     transform: scaleX(-1);
 }
 
-#distant-mountains-2-plot {
-    background-image: url(img/018-distant-mountains.png);
-    width: 8.5in;
-    height: 11in;
-    background-size: 8.5in 11in;
-}
-
 #distant-mountains-2-digital {
-    background-image: url(img/017-distant-mountains-digital.jpg);
+    background-image: url(img/018-distant-mountains-digital.jpg);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
     clip-path: polygon(0% 0, 33% 0, 33% 100%, 0% 100%);
 }
 
+#distant-mountains-2-plot {
+    background-image: url(img/019-distant-mountains.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
 #chatgpt-lines-1-plot {
-    background-image: url(img/019-chatgpt-lines.png);
+    background-image: url(img/020-chatgpt-lines.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -719,7 +719,7 @@ div#owomba-feature-optics {
 }
 
 #chatgpt-lines-1-plot-inv {
-    background-image: url(img/019-chatgpt-lines.png);
+    background-image: url(img/020-chatgpt-lines.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -729,7 +729,7 @@ div#owomba-feature-optics {
 }
 
 #chatgpt-lines-2-plot {
-    background-image: url(img/020-chatgpt-lines.png);
+    background-image: url(img/021-chatgpt-lines.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -738,7 +738,7 @@ div#owomba-feature-optics {
 }
 
 #chatgpt-lines-2-plot-inv {
-    background-image: url(img/020-chatgpt-lines.png);
+    background-image: url(img/021-chatgpt-lines.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -747,42 +747,42 @@ div#owomba-feature-optics {
 }
 
 #castillo-san-felipe-del-morro-subplot-1 {
-    background-image: url(img/021-castillo-san-felipe-del-morro-1.png);
+    background-image: url(img/022-castillo-san-felipe-del-morro-1.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #castillo-san-felipe-del-morro-subplot-2 {
-    background-image: url(img/021-castillo-san-felipe-del-morro-2.png);
+    background-image: url(img/022-castillo-san-felipe-del-morro-2.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #castillo-san-felipe-del-morro-subplot-3 {
-    background-image: url(img/021-castillo-san-felipe-del-morro-3.png);
+    background-image: url(img/022-castillo-san-felipe-del-morro-3.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #castillo-san-felipe-del-morro-subplot-4 {
-    background-image: url(img/021-castillo-san-felipe-del-morro-4.png);
+    background-image: url(img/022-castillo-san-felipe-del-morro-4.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #castillo-san-felipe-del-morro-subplot-5 {
-    background-image: url(img/021-castillo-san-felipe-del-morro-5.png);
+    background-image: url(img/022-castillo-san-felipe-del-morro-5.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
 }
 
 #castillo-san-felipe-del-morro-plot {
-    background-image: url(img/022-castillo-san-felipe-del-morro.png);
+    background-image: url(img/023-castillo-san-felipe-del-morro.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -804,7 +804,7 @@ form#hue-rotate-form input {
 }
 
 div#dear-god-started-plot {
-    background-image: url(img/023-dear-god-started.png);
+    background-image: url(img/024-dear-god-started.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
@@ -825,8 +825,58 @@ div#dear-god-top-text {
 }
 
 div#dear-god-with-time-plot {
-    background-image: url(img/024-dear-god-with-time.png);
+    background-image: url(img/025-dear-god-with-time.png);
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
+}
+
+div#omaha-nebraska-plot-1 {
+    background-image: url(img/026-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#omaha-nebraska-plot-1-inv {
+    background-image: url(img/026-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: invert();
+    clip-path: polygon(0% 0%, 100% 0%, 0% 50%);
+}
+
+div#omaha-nebraska-plot-1-water {
+    background-image: url(img/026-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: invert();
+    clip-path: polygon(0% 82%, 100% 74%, 100% 100%, 0% 100%);
+}
+
+div#omaha-nebraska-plot-2 {
+    background-image: url(img/027-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#omaha-nebraska-plot-2-inv {
+    background-image: url(img/027-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: invert();
+    clip-path: polygon(0% 0%, 100% 0%, 100% 47.5%, 0% 47.5%);
+}
+
+div#omaha-nebraska-plot-2-water {
+    background-image: url(img/027-omaha-nebraska.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    filter: invert();
+    clip-path: polygon(50% 77.5%, 100% 74%, 100% 100%, 50% 100%);
 }
