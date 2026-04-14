@@ -748,3 +748,45 @@ div#owomba-feature-optics {
     filter: brightness(200%) invert();
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
 }
+
+#castillo-san-felipe-del-morro-subplot-1 {
+    background-image: url(img/021-castillo-san-felipe-del-morro-1.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#castillo-san-felipe-del-morro-subplot-2 {
+    background-image: url(img/021-castillo-san-felipe-del-morro-2.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#castillo-san-felipe-del-morro-subplot-3 {
+    background-image: url(img/021-castillo-san-felipe-del-morro-3.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#castillo-san-felipe-del-morro-subplot-4 {
+    background-image: url(img/021-castillo-san-felipe-del-morro-4.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#castillo-san-felipe-del-morro-subplot-5 {
+    background-image: url(img/021-castillo-san-felipe-del-morro-5.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+#castillo-san-felipe-del-morro-plot {
+    background-image: url(img/022-castillo-san-felipe-del-morro.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
