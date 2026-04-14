@@ -668,13 +668,53 @@ div#owomba-feature-optics {
     width: 8.5in;
     height: 11in;
     background-size: 8.5in 11in;
+    background-position: 0in 0.5in;
+}
+
+#owoomba-top-text {
+    width: 8.5in;
+    height: 2in;
+    line-height: 2in;
+    font-size: 2in;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: -1px;
+    text-align: center;
+    position: relative;
+    top: 0.75in;
+}
+
+#owoomba-bottom-text {
+    width: 8.5in;
+    height: 2in;
+    line-height: 2in;
+    font-size: 2in;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    letter-spacing: -1px;
+    text-align: center;
+    position: relative;
+    top: 8.25in;
+}
+
+#owoomba-speech {
+    position: relative;
+    top: 7in;
+    left: 8in;
+    width: 0.5in;
+    height: 0.5in;
 }
 
 #braillest-ad {
     background-image: url(img/017-braillest-ad.png);
-    width: 8.5in;
-    height: 11in;
-    background-size: 8.5in 11in;
+    width: 8in;
+    height: 10.5in;
+    background-size: 8in 10.5in;
+    border: 0.25in solid #000;
+    border-radius: 0.25in;
+    background-position: 0in 0.66in;
 }
 
 #distant-mountains-1-plot {
