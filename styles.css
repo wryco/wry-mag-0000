@@ -1,0 +1,606 @@
+@media print {
+    .page {
+        margin-top: 0px !important;
+    }
+}
+
+html {
+    background-color: #222;
+    font-family: sans-serif;
+}
+
+body {
+    width: 17in;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page {
+    width: 8.5in;
+    height: 11in;
+    background-color: #fff;
+    margin-top: 0.5in;
+}
+
+#cover-page {
+    background-color: #bfb4a8;
+}
+
+#cover-brand {
+    font-size: 2in;
+    text-align: center;
+    font-family: "Geo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#cover-sub {
+    font-size: 0.25in;
+    text-align: center;
+    padding-bottom: 0.25in;
+    margin: 0 0.25in 0.25in 0.25in;
+    border-bottom: 0.125in solid #222;
+}
+
+#cover-image {
+    width: 8.0in;
+    height: 7.6in;
+    background-image: url(img/000-loss-landscape-plot.jpg);
+    background-position: 45% 35%;
+    background-size: 12in;
+    margin: 0.25in;
+    text-align: center;
+}
+
+#cover-overlay-text {
+    position: relative;
+    top: 35%;
+    color: #000;
+    transform: rotate(18deg);
+    font-size: 1.25in;
+    text-shadow:
+        -1px -1px 0 #bfb4a8,
+        /* Top-left shadow */
+        1px -1px 0 #bfb4a8,
+        /* Top-right shadow */
+        -1px 1px 0 #bfb4a8,
+        /* Bottom-left shadow */
+        1px 1px 0 #bfb4a8;
+    font-family: "Geo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#opening-page {
+    background-color: #111;
+    color: #fff;
+}
+
+#opening-page-text {
+    display: inline-block;
+    margin: 0.5in;
+    font-size: 0.2in;
+}
+
+#gleeby-deeby-image {
+    width: 8.5in;
+    height: 11in;
+    background-image: url(img/002-gleeby-deeby.png);
+    background-position: 35% 60%;
+    background-size: 12in;
+    box-shadow: inset 0px 0px 0px 5px #fa5b24;
+    background-color: #141615;
+}
+
+#gleeby-deeby-orange-page-number {
+    background-color: #fa5b24;
+    color: #fff;
+}
+
+#gleeby-deeby-overlay {
+    position: relative;
+    top: 25%;
+    color: #454233;
+    transform: rotate(90deg);
+    font-size: 2.5in;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-shadow:
+        -2px -2px 0 #fa5b24,
+        /* Top-left shadow */
+        2px -2px 0 #fa5b24,
+        /* Top-right shadow */
+        -2px 2px 0 #fa5b24,
+        /* Bottom-left shadow */
+        2px 2px 0 #fa5b24;
+    text-align: right;
+}
+
+.zero {
+    width: 0px;
+    height: 0px;
+}
+
+.page-number {
+    position: relative;
+    width: 60px;
+    height: 30px;
+    top: calc(11in - 30px);
+    left: calc(8.5in - 60px);
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+}
+
+p.col-6 {
+    width: 4.25in;
+}
+
+div#glorpo-page {
+    background-image: url(img/003-the-drive-home-background.jpg);
+    background-size: 8.5in 11in;
+}
+
+div#glorpo-tagline {
+    width: 8.5in;
+    height: 0.5in;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 8px;
+    position: relative;
+    top: 5px;
+    text-decoration: underline;
+}
+
+div#glorpo-title {
+    width: 8.5in;
+    height: 1.5in;
+    font-family: sans-serif;
+    font-size: 1.3in;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -10px;
+    position: relative;
+    top: 0.5in;
+    color: #fff;
+}
+
+div#glorpo-date {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 1.75in;
+}
+
+div#glorpo-aliteration {
+    width: 600px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    position: relative;
+    top: 1.75in;
+    left: 4.33in;
+}
+
+div#glorpo-model-lead-text {
+    width: 8in;
+    height: 0.5in;
+    font-weight: lighter;
+    line-height: 0.5in;
+    position: relative;
+    top: 2.5in;
+    left: 3.5in;
+    font-size: 0.25in;
+}
+
+div#glorpo-model-name {
+    width: 8in;
+    height: 2in;
+    font-size: 1.4in;
+    letter-spacing: -10px;
+    position: relative;
+    top: 2in;
+    left: 0.15in;
+    line-height: 1.1in;
+    color: #fc6d09;
+    text-shadow: 1px 1px #000
+}
+
+div#glorpo-model-description {
+
+    width: 5.75in;
+    height: 2in;
+    font-size: 0.45in;
+    position: relative;
+    top: 4.25in;
+    left: 3.1in;
+    letter-spacing: -3px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+}
+
+div#glorpo-image {
+    width: 6in;
+    height: 8in;
+    background-image: url(img/003-glorpo-transparent.png);
+    background-size: 6in 8in;
+    position: relative;
+    top: 2.9in;
+    left: 1.25in;
+}
+
+div#glorpo-image-shadow {
+    width: 6in;
+    height: 8in;
+    background-image: url(img/003-glorpo-transparent.png);
+    background-size: 6in 8in;
+    position: relative;
+    top: 2.9in;
+    left: 1.25in;
+    transform: translateX(1in);
+    opacity: .25;
+}
+
+div#glorpo-prices {}
+
+div#glorpo-barcode {
+    background-image: url(img/003-wryfren-barcode-128b.png);
+    background-size: 100% 100%;
+    width: 1in;
+    height: 1in;
+    position: relative;
+    top: 9.75in;
+    left: 0.25in;
+}
+
+div#glorpo-second-lead {
+    color: #fff;
+    position: relative;
+    top: 7.5in;
+    font-size: 0.4in;
+    width: 7.75in;
+    left: 0.5in;
+    letter-spacing: -4px;
+    text-align: center;
+    line-height: 1in;
+}
+
+div#easy-co-page-background {
+    background-color: #53eae0;
+}
+
+div#easy-co-vending-machine {
+    width: 4.5in;
+    height: 7in;
+    position: relative;
+    top: 2in;
+    left: 2in;
+    background-image: url(img/004-easy-co-vending-machine.png);
+    background-size: cover;
+}
+
+div#easy-co-vending-machine-shadow {
+    width: 4.5in;
+    height: 7in;
+    position: relative;
+    top: 2in;
+    left: 2in;
+    background-image: url(img/004-easy-co-vending-machine.png);
+    background-size: cover;
+    transform: scaleX(1.85) scaleY(1.55);
+    opacity: .33;
+}
+
+div#easy-co-vending-machine-outline {
+    width: 4.5in;
+    height: 7in;
+    position: relative;
+    top: 2in;
+    left: 2in;
+    background-image: url(img/004-easy-co-vending-machine.png);
+    background-size: cover;
+    filter: brightness(0) invert(1) blur(1in);
+}
+
+div#easy-co-tagline-top {
+    position: relative;
+    top: 0.1in;
+    left: 0.5in;
+    font-size: 2in;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 7.5in;
+    text-align: center;
+    color: #fff;
+    text-shadow:
+        -5px -5px 0 #1d1d3d,
+        /* Top-left shadow */
+        5px -5px 0 #1d1d3d,
+        /* Top-right shadow */
+        -5px 5px 0 #1d1d3d,
+        /* Bottom-left shadow */
+        5px 5px 0 #1d1d3d;
+}
+
+div#easy-co-tagline-bottom {
+    position: relative;
+    top: 9.5in;
+    background-image: url(img/004-easy-delivery-co-logo.png);
+    background-size: 100% 100%;
+    width: 5in;
+    height: 1.5in;
+}
+
+div#donald-trump-framed-signature {
+    background-image: url(img/005-donald-trump-framed-signature-placeholder.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#donald-trump-page-number {
+    background-color: #b57f51;
+    color: #431902;
+    border-bottom: 3.5px solid #c49c75;
+    top: calc(11in - 33.5px);
+    border-right: 1px solid #9c6838;
+    left: calc(8.5in - 61px);
+}
+
+div#easy-co-choose {
+    background-image: url(img/006-easy-co-choose.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#easy-co-choose-page-number {
+    background-color: #0c170a;
+    color: #fff;
+    box-shadow: -2px -2px 3px #fff;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+div#veiled-vestal-herbert {
+    background-image: url(img/007-veiled-vestal-herbert.jpg);
+    width: 8.5in;
+    height: 11in;
+    background-size: 10in 11in;
+    background-position: 50% 50%;
+}
+
+div#veiled-vestal-herbert-page-number {
+    background-color: #ded6c3;
+}
+
+div#veiled-vestal-6-color-body {
+    background-image: url(img/008-veiled-vestal-6-color-body.jpg);
+    width: 4.25in;
+    height: 5.5in;
+    background-size: 4.25in 5.5in;
+    background-position: 50% 50%;
+}
+
+div#veiled-vestal-6-color-headshot {
+    background-image: url(img/008-veiled-vestal-6-color-headshot.jpg);
+    width: 4.25in;
+    height: 5.5in;
+    background-size: 4.25in 5.5in;
+    background-position: 50% 50%;
+    position: relative;
+    top: 2.75in;
+    left: 2.125in;
+}
+
+div#veiled-vestal-6-color-upper {
+    background-image: url(img/008-veiled-vestal-6-color-upper.jpg);
+    width: 4.25in;
+    height: 5.5in;
+    background-size: 4.25in 5.5in;
+    background-position: 50% 50%;
+    position: relative;
+    top: 5.5in;
+    left: 4.25in;
+}
+
+div#veiled-vestal-6-color-full-1 {
+    background-image: url(img/008-veiled-vestal-6-color-full.jpg);
+    width: 4.25in;
+    height: 5.5in;
+    background-size: 3010px 4080px;
+    background-position: 54% 74%;
+    position: relative;
+    left: 4.25in;
+    filter: invert();
+}
+
+div#veiled-vestal-6-color-full-2 {
+    background-image: url(img/008-veiled-vestal-6-color-full.jpg);
+    width: 4.25in;
+    height: 5.5in;
+    background-size: 3010px 4080px;
+    background-position: 54% 50%;
+    position: relative;
+    top: 5.5in;
+    filter: invert();
+}
+
+div#veiled-vestal-6-color-page-number {
+    background-color: #585350;
+    color: #b2b2d9;
+    box-shadow: -1px -1px 0px 1px #aaa;
+}
+
+div#pony-hell-background {
+    background-image: url(img/009-pony-hell-background.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 10in 11in;
+    background-position: 85% 50%;
+    clip-path: polygon(0 0, 8.5in 0, 0in 11in, 0 0);
+}
+
+div#pony-hell-inverted-background {
+    filter: invert();
+    background-image: url(img/009-pony-hell-background.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 10in 11in;
+    background-position: 85% 50%;
+    clip-path: polygon(8.5in 11in, 0in 11in, 4.25in 5.5in, 8.5in 5.5in);
+}
+
+div#pony-hell-plot {
+    background-image: url(img/009-pony-hell-plot.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 10in 13in;
+    background-position: 79% 40%;
+    clip-path: polygon(0 0, 8.5in 0, 8.5in 5.5in, 4.25in 5.5in);
+}
+
+div#joja-mart-pierres {
+    background-image: url(img/010-grass-in-pierres.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+    clip-path: polygon(0 0, 8.5in 0, 8.5in 11in, 0 0);
+}
+
+div#joja-mart-exterior {
+    background-image: url(img/010-joja-mart-exterior.png);
+    width: 8.5in;
+    height: 11in;
+    background-size: 8.5in 11in;
+}
+
+div#joja-mart-banner {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    font-size: 3in;
+    text-align: center;
+    width: 8.5in;
+    top: 1.5in;
+    color: #18ffff;
+    text-shadow: 0px 0px 25px #000;
+}
+
+div#joja-mart-page {
+    background-color: #3e3e3e;
+}
+
+div#owomba-header {
+    width: 8.5in;
+    height: 0.5in;
+    line-height: 0.5in;
+    text-align: center;
+    background-color: yellow;
+    color: #000;
+    font-size: 0.25in;
+}
+
+div#owomba-banner {
+    width: 8in;
+    height: 2.5in;
+    line-height: 2.5in;
+    font-size: 1in;
+    background-color: red;
+    color: #fff;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding: 0.25in;
+    letter-spacing: -5px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+div#owomba-edition-tagline {
+    width: 8in;
+    height: 1in;
+    line-height: 1in;
+    font-size: 0.75in;
+    background-color: #eee;
+    color: #000;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    padding: 0.25in;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+div#owomba-image {
+    width: 6in;
+    height: 3.5in;
+    background-image: url(img/011-owomba.png);
+    position: relative;
+    top: 1.25in;
+    left: 1.25in;
+}
+
+div#owomba-feature-audio {
+    position: relative;
+    top: 1in;
+    left: 1in;
+    font-size: 20px;
+    width: 200px;
+}
+
+div#owomba-feature-handle {
+    position: relative;
+    top: 1.25in;
+    left: 6.25in;
+    font-size: 20px;
+    width: 200px;
+}
+
+div#owomba-feature-ports {
+    position: relative;
+    top: 2.75in;
+    left: 0.25in;
+    font-size: 20px;
+}
+
+div#owomba-feature-wheels {
+    position: relative;
+    top: 4.75in;
+    left: 0.25in;
+    font-size: 20px;
+    width: 200px;
+}
+
+div#owomba-feature-slam {
+    position: relative;
+    top: 5.25in;
+    left: 1.75in;
+    font-size: 20px;
+    width: 300px;
+}
+
+div#owomba-feature-optics {
+    position: relative;
+    top: 4.75in;
+    left: 6in;
+    font-size: 20px;
+    width: 200px;
+}
+
+#owomba-page-number {
+    background-color: #eee;
+    color: #000;
+}
